@@ -1,1 +1,1 @@
-# compteBancaire_client
+Il faut vérifier que l'EJB remote du projet serveur est bien déployé avant d'exécuter ce projet
