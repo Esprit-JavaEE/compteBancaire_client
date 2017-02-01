@@ -13,7 +13,7 @@ public class CompteBancaireClient {
 	public static void main(String[] args) throws  InterruptedException, NamingException {
 		
 		//Deux executions signifie 2 clients differents !
-		String jndiName="ejb_stateless_stateful/CompteBancaire!javaee.ejb.CompteBancaireRemote";
+		String jndiName="compteBancaire_serveur/CompteBancaire!javaee.ejb.CompteBancaireRemote";
 
 		Context context = new InitialContext();
 		CompteBancaireRemote proxy=(CompteBancaireRemote) context.lookup(jndiName);
